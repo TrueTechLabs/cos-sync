@@ -35,4 +35,4 @@ jobs:
         run: |
           gh release create "${GITHUB_REF_NAME}" \
             dist/*.tar.gz dist/*.zip dist/SHA256SUMS.txt \
-            --title "${GITHUB_REF_NAME}" --generate-notes
+            --title "${GITHUB_REF_NAME}" --generate-notes --draft
