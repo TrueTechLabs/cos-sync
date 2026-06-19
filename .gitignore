@@ -1,0 +1,10 @@
+# build artifacts
+/cos-sync
+/cos-sync.exe
+/dist/
+
+# editor / OS noise
+.DS_Store
+*.swp
+.idea/
+.vscode/

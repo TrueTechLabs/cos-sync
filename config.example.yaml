@@ -1,0 +1,17 @@
+# Copy to ~/.cos-sync/config.yaml and fill in real values.
+# Recommended: chmod 600 ~/.cos-sync/config.yaml (file contains secret keys).
+
+default: work                       # alias used when --bucket is not passed
+
+buckets:
+  work:
+    secret_id:  "<填入 SecretId>"
+    secret_key: "<填入 SecretKey>"
+    region:     ap-guangzhou        # e.g. ap-beijing, ap-shanghai, ap-guangzhou
+    bucket:     my-work-bucket-1234567890   # full name with appid suffix
+
+  personal:
+    secret_id:  "<填入 SecretId>"
+    secret_key: "<填入 SecretKey>"
+    region:     ap-beijing
+    bucket:     my-personal-bucket-1234567890
